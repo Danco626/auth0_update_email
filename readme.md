@@ -51,3 +51,8 @@ In terminal, navigate into the UpdateEmailPasswordless folder and execute
 *  `npm install`
 * `npm start`
 
+## Testing  
+1. Navigate to localhost:3000  
+2. Click on Credentials in the nav bar  
+3. Enter a new email and click submit  
+
