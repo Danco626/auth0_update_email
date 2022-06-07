@@ -1,0 +1,22 @@
+<%- include('./partials/head'); %> 
+<%- include('./partials/nav'); %>    
+
+<div class="form-center">  
+  <h2 class="pt-5">Verify Email for <%=updatedEmail %></h2>
+  <form method="POST" action="/credentials/verifyEmail">
+    <div class="form-group pt-2">
+      <label for="emailCode">One Time Code</label>
+      <input type="text" class="form-control" id="verifyEmailCode" aria-describedby="emailCode" placeholder="OTP Code" name="otp_code"> 
+  
+      
+      <input type="text" hidden class="form-control" id="updated_email_hidden" name="updated_email" value="<%=updatedEmail %>"> 
+      <div class="pt-2">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>   
+  </form>
+</div>
+
+
+
+<%- include('./partials/footer'); %> 

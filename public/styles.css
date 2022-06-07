@@ -1,0 +1,22 @@
+.form-center {
+  display: flex; 
+  flex-direction: column; 
+  height:250px; 
+  padding-left: 25%; 
+  padding-right: 25%;
+}
+
+.column-parent {
+  display: flex;    
+}
+
+.form-input {
+  flex-grow: 1;  
+  padding-left: 25%; 
+  padding-right: 25%;
+}
+.form-button {
+  
+  padding-left: 25%; 
+  padding-right: 25%;
+}
