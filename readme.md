@@ -1,4 +1,7 @@
 # Update Email w/ Passwordless Validation
+## Description  
+Verifies a user's new email prior to updating their profile in Auth0 using the email passwordless flow  
+![flow](./public/img/flow.png)  
 
 ## Prerequisites
 - NodeJS
@@ -55,4 +58,5 @@ In terminal, navigate into the UpdateEmailPasswordless folder and execute
 1. Navigate to localhost:3000  
 2. Click on Credentials in the nav bar  
 3. Enter a new email and click submit  
+
 
